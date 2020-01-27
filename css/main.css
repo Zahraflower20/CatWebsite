@@ -1,0 +1,606 @@
+* { box-sizing : border-box; }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+body {
+    background-image:url(../img/Breeds-of-Cats-Types-of-cats-Cats-Wallpapers-18.jpg);
+    max-width: 200%;
+
+}
+
+/* Home page */
+.masthead {
+    background-image:url(../img/typesofcatsOpt.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10rem 1rem;
+    margin: 1rem;
+    border: 3px solid grey;
+    margin-bottom: 40px;
+
+    }
+
+.masthead h1 {
+    text-align-last: center;
+    color: bisque;
+    text-shadow: 3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    margin-bottom: 0;
+
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Gamja Flower', cursive;
+   }
+/* Navigation */
+
+.container1 {
+    background-color: white;
+    border: 2px solid aqua; 
+    box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    font-weight: bolder;
+    transform: rotate(-3deg);
+}
+
+nav ul {
+   
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    
+}
+
+nav ul li {
+    
+    display: inline;
+    
+}
+
+nav ul li a {
+    font-family: 'Inconsolata', monospace;
+    background-color: #C2BFE5;
+    border: 1px solid #06DBB2;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    margin:  2rem;
+    text-decoration-line: none;
+
+    
+}
+nav ul li a:hover {
+    background-color: #060242;
+    color: white;
+}
+
+
+ /* Intros */
+
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    text-align: center;
+    padding: 1rem;
+    margin:  2rem;
+    margin-top: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 3px solid black;
+    box-shadow:0 0 20px black;
+    box-shadow:0 0 20px white;
+    box-shadow:0 0 20px black;
+    
+    
+}
+
+.inset-text {
+    color:bisque;
+    text-shadow: 1px 4px 6px red, 0 0 0 #060242, 1px 4px 6px  bisque;
+    background-color: aqua;
+    padding: 20px;
+ 
+}
+/* All Images on Home Page*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 9px;
+    border: 2px solid aqua;  
+    
+}
+/* Home page Paragraphs */
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder; 
+    background-color: white;
+    color: darkslateblue;
+    text-align: center;
+    line-height: 1.2rem;
+    border-radius: 9px;
+    border: 2px solid aqua;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    padding: 1rem;
+    margin:  2rem;
+    
+}
+/* hr bar */
+.style12 {
+    height: 6px;
+	background: bisque url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    /*border: 0; */
+    
+}
+/* Titles of the video & list of cats */
+h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    padding: 1rem;
+    margin:  2rem;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 3px solid black;
+    text-shadow: 1px 4px 6px bisque, 0 0 0 #060242, 1px 4px 6px  bisque;
+    color: royalblue;
+    background-color: white;
+    box-shadow:0 0 20px black;
+    box-shadow:0 0 20px white;
+    box-shadow:0 0 20px black;
+    
+}
+
+/* Video on how to take care of a new cat*/
+.video1 iframe {
+    border-radius: 10px;
+    width: 100%;
+    
+    
+ 
+}
+.video1 {
+    border: 2px solid aqua;
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+   
+    
+    
+}
+
+/* Type Of Cats To Buy*/
+ul li h4 {
+    text-align: center; 
+    background-color: azure;
+    border-radius: 9px;
+    border:  2px solid aqua;  
+    color: black;
+}
+
+.name {
+    font-size: 1.5rem;
+    text-shadow: 1px 4px 6px bisque, 0 0 0 #060242, 1px 4px 6px  bisque;
+    color: darkcyan;
+    }
+
+/* Price Tags */
+figcaption ul li {
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+figcaption {
+    background-color: rgb(0,128,128);
+    padding: 2rem;
+    border-radius: 9px;
+    border: 2px solid aqua;
+    width: 100%;
+    margin: 1rem;
+}
+
+figcaption li {
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+ figcaption li:nth-child(1) {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: aqua;
+}
+
+ figcaption:hover li:nth-child(2) {
+    background-color: indianred;
+    color: lavender;
+    transition-duration: 0.9s;
+}
+
+/* List Image */
+figure {
+    margin: 1rem auto;
+    margin-bottom: 1px;
+}
+
+figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 9px;
+    border: 2px solid aqua;
+    width:  200px;
+    height: 200px;
+    
+}
+
+/* footer */
+footer {
+    background-color: azure;
+    color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 2px solid aqua;
+    text-align: center;
+    padding: 2px;
+    margin: 1rem;
+}
+
+/* About Page */
+.AP  {
+    background-color: aqua;
+    color: bisque;
+    text-shadow: 1px 4px 6px red, 0 0 0 #060242, 1px 4px 6px  bisque;
+}
+
+.cat1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 9px;
+    border: 2px solid aqua;  
+    width:  350px;
+    height: 500px;
+    
+}
+
+/* Schedule of the store */
+.cat2 {
+    background-color: azure;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 1px 4px 6px darkred, 0 0 0 #060242, 1px 4px 6px  darkred;
+    color: grey;
+    
+}
+
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+    width: 15%;
+    padding: 0.4rem;
+    
+}
+
+table {
+    font-family: 'Oswald', sans-serif;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    align-content: ;
+    width: 100%;
+    border: 2px solid aqua;
+}
+
+th {
+    text-shadow: 1px 4px 6px bisque, 0 0 0 #060242, 1px 4px 6px  bisque;
+    color: darkcyan;
+    background-color: white;
+}
+
+tbody tr td:nth-child(2) {
+    background-color: greenyellow;
+}
+
+tbody tr td:nth-child(3) {
+    background-color: red;
+}
+
+tbody tr td:nth-child(1) {
+    background-color: white;
+    text-shadow: 1px 4px 6px red, 0 0 0 #060242, 1px 4px 6px  bisque; 
+}
+
+/* Contact Page */
+fieldset {
+    border: 0;
+  }
+.container-contact {
+    background-image:url(../img/906993610.jpg);
+    border-radius: 9px;
+    border: 2px solid aqua;
+    height: 420px;
+    margin-bottom: 15px;
+}
+input[type=text], select, textarea {
+ 
+    font-family: 'Indie Flower', cursive;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 9px;
+    border: 2px solid aqua;
+    resize: vertical;
+}
+input[type=email] {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 9px;
+    border: 2px solid aqua;
+    resize: vertical;
+}
+
+input[type=submit] {
+    color: #9F09DB;
+    border: 2px solid aqua;
+    border-radius: 100px;
+    background-color: azure;
+    width: 100%;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: blue;
+    color: lavender;
+    transition-duration: 0.9s;
+}
+label {
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 1px 4px 6px grey, 0 0 0 #060242, 1px 4px 6px  beige;
+    color: black;
+    font-size: 1rem;
+    background-color: white;
+    
+}
+
+/* Google Maps */
+.map-content iframe {
+    width: 370px;
+    height: 350px;
+    border-radius: 20px;
+    
+}
+.map-content {
+    border: 2px solid aqua;
+    width: 375px;
+    height: 355px; 
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+/* back-to-top */
+ #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: aqua;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 9px;
+}
+
+#myBtn:hover {
+    background-color: lightblue;
+    color: lavender;
+    transition-duration: 0.4s;
+}
+
+
+/* For Tablet */
+@media screen and (min-width: 768px)   {
+
+    
+/* Navigation */
+.container1 nav ul li {
+    width: calc(33.33% - 0.67rem);
+    margin:  0.15rem ;
+    float: left;
+    font-size: 2rem;
+    background-color: white;
+    border-top: 2px solid aqua;
+    border-bottom: 2px solid aqua; 
+    box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    transform: rotate(-3deg);  
+}
+.container1 {
+    border: none;
+}   
+    
+.container2 nav ul li  {
+    width: calc(33.33% - 0.67rem);
+    margin:  0.1rem ;
+    float: left;
+    font-size: 2rem;
+}
+p {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+} 
+    
+.container2 p {
+    padding-top: 4rem;
+}
+    
+    
+/* List of breeds and prices */
+figcaption ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.name {
+    width: 90%;
+     font-size: 2rem;
+    
+}
+ 
+figcaption {
+    padding: 2rem;
+    width: 90%;
+}
+
+li figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 9px;
+    border: 2px solid aqua;
+    width:  200px;
+    height: 200px;
+}
+    
+main figcaption {
+    margin-bottom: 2.5rem;
+    width: 77%;
+    display: inline-block;
+}
+    
+main figcaption li {
+    margin-bottom: 0;
+}
+    
+main figcaption li:nth-child(1) {
+    font-size: 1rem;
+}
+    
+main ul li {
+    width: 50%;
+    float: left;
+}
+    
+.name {
+    font-size: 2rem;
+    text-shadow: 1px 4px 6px bisque, 0 0 0 #060242, 1px 4px 6px  bisque;
+    color: darkcyan;
+}
+
+/* First Section */
+.left-container {
+    float: left;
+    width: 50%;
+    font-size: 1rem;
+}
+    
+.cat1 {
+    float: left;
+    margin-left: 1.5rem;
+}
+   
+/* Second Section */
+.right-container {
+    float: right;
+    width: 50%;
+}
+    
+table {
+    float: right;
+    width: 80%;
+    margin-right: 4rem;
+}
+    
+.img {
+    width: 50%;
+    float: left;
+    padding-top: 0;
+}
+    
+/* Contact Page */
+.map-content {
+    width: calc(50% - 1rem);
+    float: right;
+
+}
+    
+.container-contact  {
+    width: calc(50% - 1rem);
+    float: left;
+}
+    
+label {
+    font-size: 1.3rem;
+}
+    
+.last {
+    width: 100%;
+    margin:  0.1rem ;
+    float:left;
+}
+  /* Map */  
+.map-content iframe {
+    width: 100%;
+    float: right;
+}
+ .map-content {
+    border: 2px solid aqua;
+    border-radius: 20px;
+}
+
+ /*All Titles*/
+h3 {
+    font-size: 2rem;
+    line-height: 1rem;
+    letter-spacing: 1px;
+}
+    
+h2 {
+    font-size: 3rem;
+    line-height: 1rem;
+    letter-spacing: 1px;
+}
+   
+    
+}
+    
